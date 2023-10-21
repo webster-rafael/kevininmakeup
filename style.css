@@ -97,6 +97,12 @@ body {
 
     }
 
+    ul li a:hover {
+        color: var(--main-color);
+        background: var(--second-color);
+        border: 1px solid var(--second-color); 
+    }
+
     #social-links {
         display: flex;
         justify-content: center;
